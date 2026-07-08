@@ -1,0 +1,85 @@
+<!-- source: http://scpcbmr.42web.io/class_g_u_i_element-members.html -->
+# SCP: Containment Breach 2 Scripting: Member List
+
+|  |  |  |
+| --- | --- | --- |
+| Logo | SCP: Containment Breach 2 Scripting |  |
+
+![](sync_on.png "click to disable panel synchronization")
+
+- [▼](javascript:void(0))[SCP: Containment Breach 2 Scripting](index.md)
+
+  - [►](javascript:void(0))[AngelScript](index.md)
+  - [►](javascript:void(0))[Topics](topics.md)
+  - [▼](javascript:void(0))[Classes](annotated.md)
+
+    - [▼](javascript:void(0))[Class List](annotated.md)
+
+      - [►](javascript:void(0))[Сhat](class_xD0_xA1hat.md)
+      - [►](javascript:void(0))[Audio](class_audio.md)
+      - [►](javascript:void(0))[Config](class_config.md)
+      - [►](javascript:void(0))[Connection](class_connection.md)
+      - [►](javascript:void(0))[Corpse](class_corpse.md)
+      - [►](javascript:void(0))[Door](class_door.md)
+      - [►](javascript:void(0))[Entity](class_entity.md)
+      - [►](javascript:void(0))[Event](class_event.md)
+      - [►](javascript:void(0))[Graphics](class_graphics.md)
+      - [►](javascript:void(0))[GUIElement](class_g_u_i_element.md)
+      - [►](javascript:void(0))[Items](class_items.md)
+      - [►](javascript:void(0))[Light](class_light.md)
+      - [ModelPreset](class_model_preset.md)
+      - [►](javascript:void(0))[NPC](class_n_p_c.md)
+      - [►](javascript:void(0))[Object](class_object.md)
+      - [►](javascript:void(0))[Player](class_player.md)
+      - [►](javascript:void(0))[Room](class_room.md)
+      - [►](javascript:void(0))[Server](class_server.md)
+      - [►](javascript:void(0))[Shell](class_shell.md)
+      - [►](javascript:void(0))[Sound](class_sound.md)
+      - [►](javascript:void(0))[World](class_world.md)
+    - [Class Index](classes.md)
+    - [►](javascript:void(0))[Class Members](functions.md)
+
+[•All](javascript:void(0))[Classes](javascript:void(0))[Functions](javascript:void(0))[Variables](javascript:void(0))[Modules](javascript:void(0))[Pages](javascript:void(0))
+
+Loading...
+
+Searching...
+
+No Matches
+
+GUIElement Member List
+
+This is the complete list of members for [GUIElement](class_g_u_i_element.md), including all inherited members.
+
+|  |  |  |
+| --- | --- | --- |
+| [GetAttach](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [GetAttach](class_g_u_i_element.md)(float &out x, float &out y, float &out z) | [GUIElement](class_g_u_i_element.md) |  |
+| [GetData](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [GetPlayer](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [GetPosition](class_g_u_i_element.md)(float &out x, float &out y) | [GUIElement](class_g_u_i_element.md) |  |
+| [GetRotation](class_g_u_i_element.md)(int &out degrees) | [GUIElement](class_g_u_i_element.md) |  |
+| [GetScale](class_g_u_i_element.md)(float &out width, float &out height) | [GUIElement](class_g_u_i_element.md) |  |
+| [GetText](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [Hide](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [IsHidden](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [IsSelectable](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [Remove](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+| [SetAspect](class_g_u_i_element.md)(bool keep) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetAttach](class_g_u_i_element.md)(Player player) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetAttach](class_g_u_i_element.md)(bool enable, float x=0.0, float y=0.0, float z=0.0) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetCallback](class_g_u_i_element.md)(string &in funcname) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetCallback](class_g_u_i_element.md)(GUICALLBACK @gc) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetColor](class_g_u_i_element.md)(int r, int g, int b) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetData](class_g_u_i_element.md)(string &in data) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetOpacity](class_g_u_i_element.md)(float target, float lerp) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetPosition](class_g_u_i_element.md)(float x, float y) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetRotation](class_g_u_i_element.md)(int degrees) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetScale](class_g_u_i_element.md)(float width, float height) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetSelectable](class_g_u_i_element.md)(bool selectable) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetShadow](class_g_u_i_element.md)(bool shadowed) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetTechnique](class_g_u_i_element.md)(string &in technique) | [GUIElement](class_g_u_i_element.md) |  |
+| [SetText](class_g_u_i_element.md)(string &in text) | [GUIElement](class_g_u_i_element.md) |  |
+| [Show](class_g_u_i_element.md)() | [GUIElement](class_g_u_i_element.md) |  |
+
+- Generated by [![doxygen](doxygen.svg)](https://www.doxygen.org/index.html) 1.13.2

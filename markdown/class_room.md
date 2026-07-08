@@ -1,0 +1,172 @@
+<!-- source: http://scpcbmr.42web.io/class_room.html -->
+# SCP: Containment Breach 2 Scripting: Room Class Reference
+
+|  |  |  |
+| --- | --- | --- |
+| Logo | SCP: Containment Breach 2 Scripting |  |
+
+![](sync_on.png "click to disable panel synchronization")
+
+- [▼](javascript:void(0))[SCP: Containment Breach 2 Scripting](index.md)
+
+  - [►](javascript:void(0))[AngelScript](index.md)
+  - [►](javascript:void(0))[Topics](topics.md)
+  - [▼](javascript:void(0))[Classes](annotated.md)
+
+    - [▼](javascript:void(0))[Class List](annotated.md)
+
+      - [►](javascript:void(0))[Сhat](class_xD0_xA1hat.md)
+      - [►](javascript:void(0))[Audio](class_audio.md)
+      - [►](javascript:void(0))[Config](class_config.md)
+      - [►](javascript:void(0))[Connection](class_connection.md)
+      - [►](javascript:void(0))[Corpse](class_corpse.md)
+      - [►](javascript:void(0))[Door](class_door.md)
+      - [►](javascript:void(0))[Entity](class_entity.md)
+      - [►](javascript:void(0))[Event](class_event.md)
+      - [►](javascript:void(0))[Graphics](class_graphics.md)
+      - [►](javascript:void(0))[GUIElement](class_g_u_i_element.md)
+      - [►](javascript:void(0))[Items](class_items.md)
+      - [►](javascript:void(0))[Light](class_light.md)
+      - [ModelPreset](class_model_preset.md)
+      - [►](javascript:void(0))[NPC](class_n_p_c.md)
+      - [►](javascript:void(0))[Object](class_object.md)
+      - [►](javascript:void(0))[Player](class_player.md)
+      - [►](javascript:void(0))[Room](class_room.md)
+      - [►](javascript:void(0))[Server](class_server.md)
+      - [►](javascript:void(0))[Shell](class_shell.md)
+      - [►](javascript:void(0))[Sound](class_sound.md)
+      - [►](javascript:void(0))[World](class_world.md)
+    - [Class Index](classes.md)
+    - [►](javascript:void(0))[Class Members](functions.md)
+
+[•All](javascript:void(0))[Classes](javascript:void(0))[Functions](javascript:void(0))[Variables](javascript:void(0))[Modules](javascript:void(0))[Pages](javascript:void(0))
+
+Loading...
+
+Searching...
+
+No Matches
+
+[Public Member Functions](class_room.md) |
+[List of all members](class_room-members.md)
+
+Room Class Reference
+
+|  |  |
+| --- | --- |
+| Public Member Functions | |
+| string & | [GetName](class_room.md) () |
+|  | |
+| int | [GetIndex](class_room.md) () |
+|  | |
+| int | [GetIdentifier](class_room.md) () |
+|  | |
+| [Entity](class_entity.md) | [GetEntity](class_room.md) () |
+|  | |
+| [Entity](class_entity.md) | [GetObject](class_room.md) (int index) |
+|  | |
+| [Entity](class_entity.md) | [GetLever](class_room.md) (int index) |
+|  | |
+| bool | [IsAdjacent](class_room.md) ([Room](class_room.md)) |
+|  | |
+| [Room](class_room.md) | [GetAdjacentRoom](class_room.md) (int index) |
+|  | |
+| [Door](class_door.md) | [GetAdjacentDoor](class_room.md) (int index) |
+|  | |
+| [Door](class_door.md) | [GetDoor](class_room.md) (int) |
+|  | |
+| bool | [IsInside](class_room.md) ([Entity](class_entity.md)) |
+|  | |
+
+## Member Function Documentation
+
+## [◆](class_room.md)GetName()
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| string & Room::GetName | ( |  | ) |  |
+
+Get name
+
+## [◆](class_room.md)GetIndex()
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| int Room::GetIndex | ( |  | ) |  |
+
+Get index
+
+## [◆](class_room.md)GetIdentifier()
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| int Room::GetIdentifier | ( |  | ) |  |
+
+Get identifier
+
+## [◆](class_room.md)GetEntity()
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [Entity](class_entity.md) Room::GetEntity | ( |  | ) |  |
+
+Get entity. Has few children
+
+## [◆](class_room.md)GetObject()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [Entity](class_entity.md) Room::GetObject | ( | int | *index* | ) |  |
+
+Get room object entity. Must be in range 0 - 29. Can be NULL
+
+## [◆](class_room.md)GetLever()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [Entity](class_entity.md) Room::GetLever | ( | int | *index* | ) |  |
+
+Get room lever entity. Must be in range 0 - 3. Can be NULL
+
+## [◆](class_room.md)IsAdjacent()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool Room::IsAdjacent | ( | [Room](class_room.md) |  | ) |  |
+
+Is room adjacent?
+
+## [◆](class_room.md)GetAdjacentRoom()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [Room](class_room.md) Room::GetAdjacentRoom | ( | int | *index* | ) |  |
+
+Get adjacent room by index
+
+## [◆](class_room.md)GetAdjacentDoor()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [Door](class_door.md) Room::GetAdjacentDoor | ( | int | *index* | ) |  |
+
+Get adjacent door by index
+
+## [◆](class_room.md)GetDoor()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| [Door](class_door.md) Room::GetDoor | ( | int |  | ) |  |
+
+Get room door
+
+## [◆](class_room.md)IsInside()
+
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| bool Room::IsInside | ( | [Entity](class_entity.md) |  | ) |  |
+
+Is entity inside this room
+
+- [Room](class_room.md)
+- Generated by [![doxygen](doxygen.svg)](https://www.doxygen.org/index.html) 1.13.2

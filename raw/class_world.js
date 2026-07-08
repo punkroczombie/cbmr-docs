@@ -1,0 +1,26 @@
+var class_world =
+[
+    [ "CreateDecal", "class_world.html#a4418dd8041ffb85bd507909e52cc8eb0", null ],
+    [ "CreateEmitter", "class_world.html#acd2c149acfade99a97194cf59cc47231", null ],
+    [ "CreateEmitter", "class_world.html#a618c9970d014d124bc9c9465360a3b02", null ],
+    [ "CreateEmitter", "class_world.html#ad22bf2b681ccf0f8b518b9011300dd91", null ],
+    [ "GetZone", "class_world.html#a7bb9f90e78a1501085f9f31643f9584d", null ],
+    [ "CreateBot", "class_world.html#ad034fd85905eff1c957809cfa0905bef", null ],
+    [ "RaycastItems", "class_world.html#a07c9a1efff0f9f741f716de6f4579735", null ],
+    [ "GetItem", "class_world.html#a88f7eeee4e5db2c49ad9614d312ab6ea", null ],
+    [ "CreateItem", "class_world.html#a3e408a218b56735823343f3e8dcd5545", null ],
+    [ "CreateItem", "class_world.html#a6c7401fe29c65c944c681f5414c229e0", null ],
+    [ "GetRoomByName", "class_world.html#ae1bfb420b4b2a770356a5718f5b16df9", null ],
+    [ "GetRoomByIndex", "class_world.html#ab054de9fa3ee3d0a85187568bb47ba96", null ],
+    [ "GetRoomByIdentifier", "class_world.html#a5230982c372e2a78d9d3c55f912fa6fb", null ],
+    [ "GetCorpse", "class_world.html#ab3ec89eadf1808d3f8fd672d5064755d", null ],
+    [ "GetDoor", "class_world.html#a9c6456cc55f938e22eb0d03f9892a6ee", null ],
+    [ "GetEvent", "class_world.html#a0e7bd3a0a46422efa33a60f1eb2dca6b", null ],
+    [ "GetEventByIdentifier", "class_world.html#a0a78e567063d40b4f8f4514351882d7d", null ],
+    [ "CreateObject", "class_world.html#aa02126da78850bfec0d0cd7513eee574", null ],
+    [ "GetObject", "class_world.html#ad0df39f06d0fd7a64da0c2f271a9b70e", null ],
+    [ "CreateLight", "class_world.html#a9a9f1e8fce9f85f7965d08bf41bdf920", null ],
+    [ "CreateNPC", "class_world.html#a6aa6fd15f1fe7d856c65222204898a29", null ],
+    [ "GetNPC", "class_world.html#a28ef0d7a1d4d7789939530b887ab26c8", null ],
+    [ "CreateShell", "class_world.html#a995d3bb1e8030c89cab536670440bac1", null ]
+];
